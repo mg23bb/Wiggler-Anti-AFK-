@@ -4,6 +4,12 @@ A lightweight, zero-dependency Windows utility written in Python that simulates 
 
 Unlike naive automation tools that teleport the cursor or snap it erratically across the screen, **Wiggler** generates smooth, mathematically calculated, relative vector paths that seamlessly return the cursor to its exact starting pixel after every cycle.
 
+> [!IMPORTANT]
+> **Security Verification**
+> Because Wiggler interacts with low-level Windows input APIs (`SendInput`), some aggressive heuristic scanners might misflag compiled versions. You can view the completely clean, verified analysis directly on [VirusTotal](https://www.virustotal.com/gui/file/663ca744fb402d348493f2725b0f2b559aff9545ed80bf0b3a5ce51b734fe01b/detection).
+> 
+> 
+
 ---
 
 ## 🛡️ Why It Bypasses Anti-Cheat
